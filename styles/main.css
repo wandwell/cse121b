@@ -10,6 +10,29 @@ body {
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
+ #projectheader{
+    border-width: 2px;
+    margin-top: 75px;
+ }
+
+ #projectmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    row-gap: 20px;
+    margin-bottom: 50px;
+ }
+
+ #original{
+    visibility: hidden;
+    text-align: center;
+ }
+
+ #poem{
+    visibility: visible;
+    text-align: center;
+ }
+
 nav {
     background-color: black;
     width: 100%;
@@ -278,7 +301,9 @@ footer {
     box-shadow: 0 0 30px #777;
     margin: .5rem;
 }
-
+ #project {
+    display: block;
+ }
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
     nav ul {
